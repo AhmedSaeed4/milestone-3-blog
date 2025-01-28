@@ -1,6 +1,5 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import Card from "./Card";
 import Link from "next/link";
 import Data from '@/app/component/Data';
@@ -8,7 +7,7 @@ import Data from '@/app/component/Data';
 const data = Data
 
 const Header = () => {
-  const router = useRouter();
+ // const router = useRouter();
 
   return (
     <div className="w-auto min-h-full font-mono py-[10vh] px-[40px] flex flex-col items-center gap-10 bg-gradient-to-b from-[#eceeed] to-[#d3d6dc]">

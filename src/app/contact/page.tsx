@@ -7,11 +7,11 @@ const ContactPage = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-interface FormValues {
+/*interface FormValues {
     name: string;
     email: string;
     message: string;
-}
+}*/
 const route = useRouter();
 const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

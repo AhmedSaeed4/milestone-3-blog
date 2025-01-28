@@ -9,7 +9,7 @@ const Navbar2 = () => {
         <div className="text-2xl font-bold text-[32px]">MY BLOG</div>
         <ul className="flex space-x-6 font-bold text-[16px]">
           <li>
-            <a href="/" className="hover:underline">Home</a>
+            <Link href="/" className="hover:underline">Home</Link>
           </li>
           <li>
           <Link href={`../blog/${1}`}> Blog</Link>

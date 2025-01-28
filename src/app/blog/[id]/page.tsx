@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import data from "@/app/component/Data";
 import { useParams } from "next/navigation";
+import Link from "next/link";
 
 const BlogContent = () => {
   // Using `useParams` to dynamically fetch params
@@ -54,9 +55,9 @@ const BlogContent = () => {
         <h2 className="text-3xl font-semibold text-[#121c26] mb-4">
           Blog Not Found
         </h2>
-        <a href="/" className="text-blue-500 hover:underline text-lg">
+        <Link href="/" className="text-blue-500 hover:underline text-lg">
           Go back to Home
-        </a>
+        </Link>
       </div>
     );
   }
